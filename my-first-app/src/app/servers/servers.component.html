@@ -1,2 +1,7 @@
+<button class="btn btn-primary" 
+(click)="onServerCreated()" [disabled]="!allowServer">Add Server</button>
+<p [innerText]="allowServer"></p>
+<hr>
+{{serverCreationStatus}}
 <app-server></app-server>
 <app-server></app-server>
